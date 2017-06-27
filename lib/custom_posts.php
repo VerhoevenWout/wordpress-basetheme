@@ -1,7 +1,7 @@
 <?php
 // https://developer.wordpress.org/resource/dashicons/#businessman
 function create_posttype() {
-	register_post_type( 'case-studies',
+	register_post_type( 'case-studies-1',
 	// CPT Options
 		array(
 			'labels' => array(
@@ -16,8 +16,27 @@ function create_posttype() {
             'taxonomies' => array('post_tag'),
 		)
 	);
+	register_post_type( 'case-studies-2',
+	// CPT Options
+		array(
+			'labels' => array(
+				'name' => __( 'Case Studies' ),
+				'singular_name' => __( 'Case Study' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array('slug' => 'case-studies'),
+			'menu_icon' => 'dashicons-format-status',
+			'supports' => array( 'editor','title', 'thumbnail', ),
+						'taxonomies' => array('post_tag'),
+		)
+	);
 }
 add_action( 'init', 'create_posttype' );
+
+// ======================================================================================
+// OR ===================================================================================
+// ======================================================================================
 
 function projects_function() {
 	$labels = array(
