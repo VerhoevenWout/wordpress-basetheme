@@ -5,6 +5,7 @@ html, body{
   background-color: #ffffff;
   margin: 0;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 body{
   display: none;
