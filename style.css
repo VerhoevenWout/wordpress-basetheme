@@ -11,10 +11,11 @@ Tags:
 @import "assets/css/bootstrap.css";
 @import "assets/css/bootstrap-theme.css";
 @import "assets/css/hamburger.css";
+@import "assets/css/font-awesome.min.css";
 
 @import "assets/css/screen.css";
 
-@import "assets/css/style-common.css";
+/*@import "assets/css/style-common.css";*/
 @import "assets/css/style-home.css";
 @import "assets/css/style-page.css";
 @import "assets/css/style-single.css";

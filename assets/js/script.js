@@ -1,5 +1,7 @@
 jQuery(function($){
 
+  var templateUrl = '<?= get_bloginfo("template_url"); ?>';
+
   // FADING LINKS
   setTimeout(function(){
     // Don't forget to make body display none
