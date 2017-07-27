@@ -8,16 +8,10 @@ Version: 1.0
 Tags:
 */
 
-@import "assets/css/bootstrap.css";
-@import "assets/css/bootstrap-theme.css";
-@import "assets/css/hamburger.css";
-@import "assets/css/font-awesome.min.css";
+/*Load all css*/
+@import "assets/css/resources/bootstrap.css";
+@import "assets/css/resources/bootstrap-theme.css";
+@import "assets/css/resources/hamburger.css";
+@import "assets/css/resources/devicons.css";
 
 @import "assets/css/screen.css";
-
-/*@import "assets/css/style-common.css";*/
-@import "assets/css/style-home.css";
-@import "assets/css/style-page.css";
-@import "assets/css/style-single.css";
-
-@import "assets/css/style-editor.css";

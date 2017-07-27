@@ -1,6 +1,8 @@
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-/* - - - - - - - - - - - - - - - - - - - JS ANIMATION CLASSES  - - - - - - - - - - - - */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-.expand-full-screen{
 
-}
+/*LOAD ALL SCSS*/
+@import "style-common";
+@import "style-editor";
+
+@import "style-home";
+@import "style-page";
+@import "style-single";
