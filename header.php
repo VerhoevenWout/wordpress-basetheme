@@ -50,6 +50,12 @@
 	<meta name="DC.subject" content="What you're about.">
 	<meta name="DC.creator" content="Who made this site.">
 
+	<!-- <meta property=”og:image” content="<?php echo get_template_directory_uri(); ?>/assets/img/share_image.png"/> -->
+	<meta property="og:url" content="<?php echo get_template_directory_uri(); ?>"/>
+	<meta property=”og:image” content="http://linktoyourimage.com/image.jpg"/>
+	<meta property=”og:title” content="This will be the title displayed!"/>
+	<meta property=”og:description” content="This will be the description that shows below the title!"/>
+
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@twitter-handle">
 	<meta name="twitter:url" property="og:url" content="https://my-site">
